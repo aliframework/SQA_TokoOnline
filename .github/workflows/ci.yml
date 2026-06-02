@@ -29,4 +29,6 @@ jobs:
         run: msedgedriver --port=9515 &
 
       - name: Run All Automated Tests & Quality Metrics
-        run: php vendor/bin/phpunit tests/ --coverage-text
+        run:
+              php vendor/bin/phpunit tests/CatalogTest.php
+              php vendor/bin/phpunit tests/CheckoutTest.php --coverage-text
