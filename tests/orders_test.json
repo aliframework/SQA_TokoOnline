@@ -1,0 +1,13 @@
+[
+    {
+        "id_pesanan": "ORD-6a09f34b41241",
+        "email": "budi@email.com",
+        "alamat": "Alamat Test",
+        "items": {
+            "PRD-002": 5
+        },
+        "total_bayar": 1125000,
+        "status": "Menunggu Pembayaran",
+        "tanggal": "2026-05-17 18:56:43"
+    }
+]
